@@ -1,0 +1,1 @@
+Select Top 10 ProductName, Unitprice from products Order By UnitPrice desc

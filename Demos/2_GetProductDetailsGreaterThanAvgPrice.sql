@@ -1,0 +1,1 @@
+Select Distinct ProductName, Unitprice from products where UnitPrice > (Select Avg(UnitPrice) from products) Order By UnitPrice
